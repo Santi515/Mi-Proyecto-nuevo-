@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(254, 225, 190);
+}
+
+main{
+    margin-top: 40px;
+}
+
+header{
+    margin: 0px;
+    background: linear-gradient(0deg, rgba(255,228,196,1) 30%, rgba(111,111,111,1) 100%);
+    padding: 10px;
+}
+
+header h1{
+    text-align: left;
+    font-size: 50px;
+    padding-top: 10px;
+    font-family: cursive;
+}
+
+header img{
+    border-radius: 60%;
+    height: 80px;
+    width: 80px; 
+    float: left;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+main div img{
+    border-radius: 60%;
+    height: 80px;
+    width: 80px; 
+    float: left;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+main div{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+div h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}

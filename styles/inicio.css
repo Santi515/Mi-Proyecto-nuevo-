@@ -20,10 +20,10 @@ header h1{
 }
 
 header img{
-    border-radius: 40%;
-    height: 150px;
-    width: 150px; 
-    float: center;
+    border-radius: 60%;
+    height: 90px;
+    width: 90px; 
+    float: left;
     margin-right: 50px;
     margin-top: 0px;
 }

@@ -1,8 +1,10 @@
 body{
     background-color:rgb(254, 225, 190);
+    overflow-x: hidden;
 }
 
 main{
+    margin-left: 40px;
     margin-top: 40px;
 }
 
@@ -21,28 +23,107 @@ header h1{
 
 header img{
     border-radius: 60%;
-    height: 80px;
-    width: 80px; 
+    height: 90px;
+    width: 90px; 
     float: left;
     margin-right: 50px;
     margin-top: 0px;
 }
 
-main div img{
-    border-radius: 60%;
-    height: 80px;
-    width: 80px; 
-    float: left;
-    margin-right: 50px;
-    margin-top: 0px;
-}
-
-main div{
-    margin-top: 20px;
+.title{
+    margin-top: 50px;
     margin-bottom: 40px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section div{
+    margin: 20px;
+}
+
+article h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.foto{
+    height: 300px;
+    width: 480px;
+    margin-left: 350px;
+    margin-bottom: 15px;
+    border: solid 4px;
+}
+
+.op-foto{
+    height: 240px;
+    width: 420px;
+    margin-left: 90px;
+    margin-bottom: 12px;
+    border: solid 4px;
+}
+
+h4{
+    font-size: 43px;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 560px;
+}
+
+h5{
+    color:rgb(96, 93, 77) ;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+
+article p{
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+div article{
+    height: max-content;
+    border: solid 4px;
+    background-color: rgb(254, 225, 190);
+    margin-left: 95px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+div div article{
+    margin-left: 60px;
 }
 
 div h1{
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+article h3{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer img{
+    height: 240px;
+    width: 330px;
+}
+
+footer h6{
+    font-size: 50px;
 }
